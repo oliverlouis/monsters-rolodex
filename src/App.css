@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +42,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 72px;
+  color: #b6eb7a;
 }
